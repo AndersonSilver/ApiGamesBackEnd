@@ -92,7 +92,7 @@ let BD = {
 
 app.get("/games",autenticacao,(rew,res) =>{
     res.statusCode = 200;
-    res.json(BD.games);
+    res.json(BD.games); 
 })
 
 // chama do banco de dado falso "BD" pelo ID e imprime na tela.
